@@ -33,7 +33,7 @@ class TestLogin_001:
             self.logger.info("Homepage title matched.")
         except Exception as e:
             timestamp = time.strftime("%Y%m%d-%H%M%S")
-            screenshot_path = f"C:\\Users\\varun\\OneDrive\\Desktop\\GE\\WEB AUTOMATION\\nopcommerce\\screenshots\\test_login_{timestamp}.png"
+            screenshot_path = f"C:\\Users\\varun\\OneDrive\\Desktop\\GE\\WEB AUTOMATION\\orange_hrm\\screenshots\\test_login_{timestamp}.png"
 
             time.sleep(3)
             driver.save_screenshot(screenshot_path)
@@ -63,7 +63,7 @@ class TestLogin_001:
 
         except Exception as e:
             timestamp = time.strftime("%Y%m%d-%H%M%S")
-            screenshot_path = f"C:\\Users\\varun\\OneDrive\\Desktop\\GE\\WEB AUTOMATION\\nopcommerce\\screenshots\\test_homepage_{timestamp}.png"
+            screenshot_path = f"C:\\Users\\varun\\OneDrive\\Desktop\\GE\\WEB AUTOMATION\\orange_hrm\\screenshots\\test_homepage_{timestamp}.png"
             time.sleep(3)
             driver.save_screenshot(screenshot_path)
             self.logger.error(f"Login test failed: {e}")

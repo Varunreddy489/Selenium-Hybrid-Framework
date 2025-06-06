@@ -14,7 +14,7 @@ from page_objects.login_page import Login
 
 class Test_DDT_Login_002:
     baseUrl = ReadConfig.get_app_url()
-    data_path = r"C:\Users\varun\OneDrive\Desktop\GE\WEB AUTOMATION\nopcommerce\test_data\login_data.xlsx"
+    data_path = r"C:\Users\varun\OneDrive\Desktop\GE\WEB AUTOMATION\orange_hrm\test_data\login_data.xlsx"
     logger = LogGen.log_gen()
 
     @pytest.mark.regression

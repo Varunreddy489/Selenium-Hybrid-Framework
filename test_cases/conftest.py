@@ -40,7 +40,7 @@ def setup(browser):
 def pytest_configure(config):
     # Only set metadata if pytest-html plugin is active
     if hasattr(config, '_metadata'):
-        config._metadata['Project Name'] = 'nopcommerce'
+        config._metadata['Project Name'] = 'orange_hrm'
         config._metadata['Module Name'] = 'Customers'
         config._metadata['Tester'] = 'Varunreddy'
 

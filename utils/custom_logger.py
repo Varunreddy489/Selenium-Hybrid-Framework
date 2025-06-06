@@ -5,7 +5,7 @@
 #     @staticmethod
 #     def log_gen():
 #         logging.basicConfig(
-#             filename=r"C:\Users\varun\OneDrive\Desktop\GE\WEB AUTOMATION\nopcommerce\logs\automation.log",
+#             filename=r"C:\Users\varun\OneDrive\Desktop\GE\WEB AUTOMATION\orange_hrm\logs\automation.log",
 #             # Correct relative path
 #             format="%(asctime)s: %(levelname)s: %(message)s",
 #             datefmt="%Y-%m-%d %I:%M:%S %p")
@@ -27,7 +27,7 @@ class LogGen:
         # Avoid adding multiple handlers on repeated test runs
         if not logger.handlers:
             logger.setLevel(logging.INFO)
-            log_path = r"C:\Users\varun\OneDrive\Desktop\GE\WEB AUTOMATION\nopcommerce\logs"
+            log_path = r"C:\Users\varun\OneDrive\Desktop\GE\WEB AUTOMATION\orange_hrm\logs"
             os.makedirs(log_path, exist_ok=True)  # Ensure the directory exists
 
             file_handler = logging.FileHandler(os.path.join(log_path, "automation.log"), mode='a')

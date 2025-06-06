@@ -49,7 +49,7 @@ class TestSearchEmployee_004:
 
         except Exception as e:
             timestamp = time.strftime("%Y%m%d-%H%M%S")
-            screenshot_path = f"C:\\Users\\varun\\OneDrive\\Desktop\\GE\\WEB AUTOMATION\\nopcommerce\\screenshots\\test_homepage_{timestamp}.png"
+            screenshot_path = f"C:\\Users\\varun\\OneDrive\\Desktop\\GE\\WEB AUTOMATION\\orange_hrm\\screenshots\\test_homepage_{timestamp}.png"
             time.sleep(3)
             driver.save_screenshot(screenshot_path)
             self.logger.error(f"Test Search Employee failed: {e}")
