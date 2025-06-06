@@ -63,7 +63,6 @@ class Test_DDT_Login_002:
                     self.lst_status.append("Pass")
                 else:
                     self.logger.info(f"Row {r}: Login Failed but was expected to fail.")
-                    self.lg.click_logout()
                     self.lst_status.append("Fail")
             else:
                 if self.expectedResult == "Pass":
