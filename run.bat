@@ -1,6 +1,6 @@
-REM pytest -v -s -m "sanity" --html=./reports/report.html test_cases/ --browser chrome
+pytest -v -s -m "sanity" --html=./reports/report.html test_cases/ --browser chrome
 
-C:\Users\varun\AppData\Local\Programs\Python\Python312\Scripts\pytest.exe -v -s -m "regression" --html=./reports/report.html test_cases/ --browser chrome
+REM C:\Users\varun\AppData\Local\Programs\Python\Python312\Scripts\pytest.exe -v -s -m "regression" --html=./reports/report.html test_cases/ --browser chrome
 
 REM C:\Users\varun\AppData\Local\Programs\Python\Python312\Scripts\pytest.exe -v -s -m "regression" --html=./reports/report.html test_cases/ --browser firefox
 
