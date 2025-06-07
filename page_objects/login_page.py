@@ -1,14 +1,12 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Login:
-    textbox_username_xpath = "//input[@placeholder='Username']"
-    textbox_password_xpath = "//input[@placeholder='Password']"
+    textbox_username_xpath = "//input[@name='username']"
+    textbox_password_xpath = "//input[@name='password']"
     button_login_xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"
-
-    # logout_link_text = "Logout"
 
     def __init__(self, driver):
         self.driver = driver
@@ -26,7 +24,3 @@ class Login:
 
     def click_login(self):
         self.driver.find_element(By.XPATH, self.button_login_xpath).click()
-
-# def click_logout(self):
-#     self.driver.find_element(By.LINK_TEXT, self.logout_linktext).click()
-
