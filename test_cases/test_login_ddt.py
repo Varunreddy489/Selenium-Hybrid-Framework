@@ -5,11 +5,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
+from page_objects.login_page import Login
+from page_objects.logout import Logout
 from utils import excel_utils
 from utils.custom_logger import LogGen
-from page_objects.logout import Logout
 from utils.read_props import ReadConfig
-from page_objects.login_page import Login
 
 
 class Test_DDT_Login_002:
@@ -43,12 +43,19 @@ class Test_DDT_Login_002:
 
             self.expectedResult = excel_utils.read_data(self.data_path, 'Sheet1', r, 3)
 
+            print(
+                f"Row {r}: Username: {self.username}, Password: {self.password}, Expected Result: {self.expectedResult}")
+
             self.lp.set_username(self.username)
             self.lp.set_password(self.password)
             self.lp.click_login()
             time.sleep(5)
+            print(
+                f" Successfully Passed: Username: {self.username}, Password: {self.password}, Expected Result: {self.expectedResult}")
+            self.logger.info("********* Logged in Successfully *******")
 
             try:
+
                 WebDriverWait(self.driver, 10).until(
                     EC.presence_of_element_located((By.XPATH, "//p[normalize-space()='My Actions']"))
                 )
@@ -56,23 +63,42 @@ class Test_DDT_Login_002:
             except:
                 login_successful = False
 
-            if login_successful:
-                if self.expectedResult == "Pass":
-                    self.logger.info(f"Row {r}: Login Passed as expected.")
-                    self.lg.click_logout()
-                    self.lst_status.append("Pass")
-                else:
-                    self.logger.info(f"Row {r}: Login Failed but was expected to fail.")
-                    self.lst_status.append("Fail")
-            else:
-                if self.expectedResult == "Pass":
-                    self.logger.info(f"Row {r}: Login Failed unexpectedly.")
-                    self.lst_status.append("Fail")
-                else:
-                    self.logger.info(f"Row {r}: Login Failed as expected.")
-                    self.lst_status.append("Pass")
+            # if login_successful:
+            #     if self.expectedResult == "Pass":
+            #         self.logger.info(f"Row {r}: Login Passed as expected.")
+            #         self.lg.click_logout()
+            #         self.lst_status.append("Pass")
+            #     else:
+            #         self.logger.info(f"Row {r}: Login Failed but was expected to fail.")
+            #         self.lg.click_logout()
+            #         self.lst_status.append("Fail")
+            # else:
+            #     if self.expectedResult == "Pass":
+            #         self.logger.info(f"Row {r}: Login Failed unexpectedly.")
+            #         self.lst_status.append("Fail")
+            #     else:
+            #         self.logger.info(f"Row {r}: Login Failed as expected.")
+            #         self.lst_status.append("Pass")
 
-        if "Fail" not in list_status:
+            if login_successful and self.expectedResult == "Pass":
+                self.logger.info(f"Row {r}: Login Passed as expected.")
+                self.lg.click_logout()
+                self.lst_status.append("Pass")
+
+            elif not login_successful and self.expectedResult == "Fail":
+                self.logger.info(f"Row {r}: Login Failed as expected.")
+                self.lst_status.append("Pass")
+
+            else:
+                self.logger.info(
+                    f"Row {r}: Test Failed. Expected: {self.expectedResult}, but got: {'Pass' if login_successful else 'Fail'}")
+                self.lst_status.append("Fail")
+                if login_successful:
+                    self.lg.click_logout()
+
+        print("List Status:", self.lst_status)
+
+        if "Fail" not in self.lst_status:
             self.logger.info("***** Login DDT test passed *****")
             self.driver.close()
             assert True
