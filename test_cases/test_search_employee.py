@@ -42,7 +42,6 @@ class TestSearchEmployee_004:
             time.sleep(5)
 
             test = se.search_emp_text("0295")
-            print("scdascdsddnvv", test)
 
             assert test == "0295"
 
