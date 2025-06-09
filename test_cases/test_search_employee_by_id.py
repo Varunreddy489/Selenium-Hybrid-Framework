@@ -3,7 +3,7 @@ import time
 import pytest
 
 from page_objects.login_page import Login
-from page_objects.search_employee_page import SearchEmployee
+from page_objects.search_employee_page_by_id import SearchEmployeeById
 from utils.custom_logger import LogGen
 from utils.read_props import ReadConfig
 
@@ -21,7 +21,7 @@ class TestSearchEmployee_004:
         driver.get(self.baseURL)
 
         lp = Login(driver)
-        se = SearchEmployee(driver)
+        se = SearchEmployeeById(driver)
 
         try:
             self.logger.info("********** Started Login **********")
@@ -36,14 +36,14 @@ class TestSearchEmployee_004:
             se.redirect_emp_list()
 
             # se.set_employee_name("Emily Jones")
-            se.set_employee_id("0295")
+            se.set_employee_id("0377")
             se.search_button()
 
             time.sleep(5)
 
-            test = se.search_emp_text("0295")
+            test = se.search_emp_text("0377")
 
-            assert test == "0295"
+            assert test == "0377"
 
 
         except Exception as e:
