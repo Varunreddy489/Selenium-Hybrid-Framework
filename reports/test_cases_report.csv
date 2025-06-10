@@ -1,0 +1,8 @@
+DATE	TESTED FUNCTIONALITY	TEST CASE	STATUS
+2025-06-10 21:34:37,TestSearchEmployee_005,Charles Carter,Passed
+2025-06-10 21:41:52,TestSearchEmployee_005,Charles Carter,Passed
+2025-06-10 21:42:56,TestSearchEmployee_005,Charles Carter,Passed
+2025-06-10 21:49:19,TestSearchEmployee_005,Charles Carter,Passed
+2025-06-10 21:56:04,TestSearchEmployee_005,Search for Charles Carter1 - Employee not found,Failed
+2025-06-10 22:02:28,TestLogin_001,Logged in using Admin and  admin123,Passed
+2025-06-10 22:07:24,TestLogin_001,Logged in using Admin1 and  admin123,Failed
