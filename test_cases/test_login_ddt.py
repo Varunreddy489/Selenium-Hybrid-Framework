@@ -9,6 +9,7 @@ from page_objects.login_page import Login
 from page_objects.logout import Logout
 from utils import excel_utils
 from utils.custom_logger import LogGen
+from utils.csv_report_gen import create_report
 from utils.read_props import ReadConfig
 
 
@@ -63,23 +64,6 @@ class Test_DDT_Login_002:
             except:
                 login_successful = False
 
-            # if login_successful:
-            #     if self.expectedResult == "Pass":
-            #         self.logger.info(f"Row {r}: Login Passed as expected.")
-            #         self.lg.click_logout()
-            #         self.lst_status.append("Pass")
-            #     else:
-            #         self.logger.info(f"Row {r}: Login Failed but was expected to fail.")
-            #         self.lg.click_logout()
-            #         self.lst_status.append("Fail")
-            # else:
-            #     if self.expectedResult == "Pass":
-            #         self.logger.info(f"Row {r}: Login Failed unexpectedly.")
-            #         self.lst_status.append("Fail")
-            #     else:
-            #         self.logger.info(f"Row {r}: Login Failed as expected.")
-            #         self.lst_status.append("Pass")
-
             if login_successful and self.expectedResult == "Pass":
                 self.logger.info(f"Row {r}: Login Passed as expected.")
                 self.lg.click_logout()
@@ -100,6 +84,7 @@ class Test_DDT_Login_002:
 
         if "Fail" not in self.lst_status:
             self.logger.info("***** Login DDT test passed *****")
+            create_report()
             self.driver.close()
             assert True
         else:

@@ -7,14 +7,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from page_objects.login_page import Login
 from utils.custom_logger import LogGen
+from utils.csv_report_gen import create_report
 from utils.read_props import ReadConfig
 
 
 class TestLogin_001:
-    # baseURL = os.getenv("BASE_URL")
-    # username = os.getenv("USERNAME")
-    # password = os.getenv("PASSWORD")
-
     baseURL = ReadConfig.get_app_url()
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
@@ -43,10 +40,13 @@ class TestLogin_001:
             driver.close()
 
     def test_login(self, setup):
+
         self.logger.info("********** Starting Login test **********")
         driver = setup
         driver.get(self.baseURL)
         lp = Login(driver)
+
+        test_status = "Failed"
 
         self.confirm_ele = "//p[normalize-space()='My Actions']"
 
@@ -57,6 +57,8 @@ class TestLogin_001:
 
             confirm = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, self.confirm_ele)))
+
+            test_status = "Passed" if confirm.text == "My Actions" else "Failed"
 
             assert confirm.text == "My Actions", "Element not detected"
             self.logger.info("Login successful. Element detected")
@@ -69,4 +71,9 @@ class TestLogin_001:
             self.logger.error(f"Login test failed: {e}")
             assert False
         finally:
+            create_report(
+                self.__class__.__name__,
+                f"Logged in using {self.username} and  {self.password}",
+                test_status
+            )
             driver.close()
