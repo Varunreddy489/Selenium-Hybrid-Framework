@@ -1092,3 +1092,597 @@ Stacktrace:
 2025-06-05 10:47:38 PM: INFO: ********** Starting Add Employee **********
 2025-06-05 10:47:42 PM: INFO: ********** Started Login **********
 2025-06-05 10:47:47 PM: INFO: ********** Completed Login **********
+2025-06-06 11:45:16 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-06 11:45:21 PM: INFO: Homepage title matched.
+2025-06-06 11:45:23 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 11:45:23 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 11:45:39 PM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-06 11:45:51 PM: INFO: ********** Starting Add Employee **********
+2025-06-06 11:45:55 PM: INFO: ********** Started Login **********
+2025-06-06 11:45:56 PM: INFO: ********** Completed Login **********
+2025-06-06 11:46:18 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-06 11:46:22 PM: INFO: Homepage title matched.
+2025-06-06 11:46:30 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 11:46:30 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 11:46:44 PM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-06 11:47:02 PM: INFO: ********** Starting Add Employee **********
+2025-06-06 11:47:07 PM: INFO: ********** Started Login **********
+2025-06-06 11:47:09 PM: INFO: ********** Completed Login **********
+2025-06-06 11:48:09 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-06 11:48:15 PM: INFO: Homepage title matched.
+2025-06-06 11:48:16 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 11:48:16 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 11:48:29 PM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-06 11:48:41 PM: INFO: ********** Starting Add Employee **********
+2025-06-06 11:48:46 PM: INFO: ********** Started Login **********
+2025-06-06 11:48:48 PM: INFO: ********** Completed Login **********
+2025-06-06 11:49:09 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-06 11:49:14 PM: INFO: Homepage title matched.
+2025-06-06 11:49:21 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 11:49:21 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 11:49:34 PM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-06 11:49:51 PM: INFO: ********** Starting Add Employee **********
+2025-06-06 11:49:56 PM: INFO: ********** Started Login **********
+2025-06-06 11:49:59 PM: INFO: ********** Completed Login **********
+2025-06-07 10:14:18 AM: INFO: ********** Starting test_homepage_title **********
+2025-06-07 10:14:22 AM: INFO: Homepage title matched.
+2025-06-07 10:14:24 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:14:24 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:16:12 AM: INFO: ********** Starting test_homepage_title **********
+2025-06-07 10:16:16 AM: INFO: Homepage title matched.
+2025-06-07 10:16:18 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:16:18 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:16:29 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:16:41 AM: INFO: ********** Starting Add Employee **********
+2025-06-07 10:16:45 AM: INFO: ********** Started Login **********
+2025-06-07 10:16:47 AM: INFO: ********** Completed Login **********
+2025-06-07 10:17:12 AM: INFO: ********** Starting test_homepage_title **********
+2025-06-07 10:17:16 AM: INFO: Homepage title matched.
+2025-06-07 10:17:17 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:17:17 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:17:30 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:17:42 AM: INFO: ********** Starting Add Employee **********
+2025-06-07 10:17:45 AM: INFO: ********** Started Login **********
+2025-06-07 10:17:46 AM: INFO: ********** Completed Login **********
+2025-06-07 10:18:26 AM: INFO: ********** Starting test_homepage_title **********
+2025-06-07 10:18:29 AM: INFO: Homepage title matched.
+2025-06-07 10:18:31 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:18:31 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:18:43 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:18:55 AM: INFO: ********** Starting Add Employee **********
+2025-06-07 10:18:59 AM: INFO: ********** Started Login **********
+2025-06-07 10:19:02 AM: INFO: ********** Completed Login **********
+2025-06-07 10:20:40 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:20:40 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:20:49 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:32:51 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:32:51 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:33:02 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:33:13 AM: INFO: Row 3: Login Failed as expected.
+2025-06-07 10:33:23 AM: INFO: Row 4: Login Failed as expected.
+2025-06-07 10:33:34 AM: INFO: Row 5: Login Failed as expected.
+2025-06-07 10:33:34 AM: INFO: ***** Login DDT test passed *****
+2025-06-07 10:33:34 AM: INFO: ***** End of Login DDT Test *******
+2025-06-07 10:33:34 AM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-07 10:34:48 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:34:48 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:34:58 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:34:58 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:35:09 AM: INFO: Row 3: Login Failed as expected.
+2025-06-07 10:35:19 AM: INFO: Row 4: Login Failed as expected.
+2025-06-07 10:35:29 AM: INFO: Row 5: Login Failed as expected.
+2025-06-07 10:35:29 AM: INFO: ***** Login DDT test passed *****
+2025-06-07 10:35:29 AM: INFO: ***** End of Login DDT Test *******
+2025-06-07 10:35:29 AM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-07 10:49:49 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:49:49 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:49:59 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:49:59 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:50:07 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:50:17 AM: INFO: Row 3: Login Failed as expected.
+2025-06-07 10:50:23 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:50:34 AM: INFO: Row 4: Login Failed as expected.
+2025-06-07 10:50:40 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:50:51 AM: INFO: Row 5: Login Failed as expected.
+2025-06-07 10:50:51 AM: INFO: ***** Login DDT test passed *****
+2025-06-07 10:50:51 AM: INFO: ***** End of Login DDT Test *******
+2025-06-07 10:50:51 AM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-07 10:53:39 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:53:39 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:53:50 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:53:50 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:53:57 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:54:07 AM: INFO: Row 3: Login Failed as expected.
+2025-06-07 10:54:13 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:54:23 AM: INFO: Row 4: Login Failed as expected.
+2025-06-07 10:54:30 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:54:40 AM: INFO: Row 5: Login Failed as expected.
+2025-06-07 10:54:40 AM: INFO: ***** Login DDT test passed *****
+2025-06-07 10:54:40 AM: INFO: ***** End of Login DDT Test *******
+2025-06-07 10:54:40 AM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-07 10:58:43 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 10:58:43 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 10:58:53 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:58:54 AM: INFO: Row 2: Login Failed but was expected to fail.
+2025-06-07 10:59:02 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:59:13 AM: INFO: Row 3: Login Failed as expected.
+2025-06-07 10:59:20 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:59:30 AM: INFO: Row 4: Login Failed as expected.
+2025-06-07 10:59:36 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 10:59:46 AM: INFO: Row 5: Login Failed as expected.
+2025-06-07 10:59:46 AM: INFO: **** Login DDT test failed ******
+2025-06-07 11:05:42 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 11:05:42 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 11:05:53 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:05:53 AM: INFO: Row 2: Test Failed. Expected: pass, but got: Pass
+2025-06-07 11:06:01 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:06:12 AM: INFO: Row 3: Test Failed. Expected: fail, but got: Fail
+2025-06-07 11:06:17 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:06:28 AM: INFO: Row 4: Test Failed. Expected: fail, but got: Fail
+2025-06-07 11:06:34 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:06:44 AM: INFO: Row 5: Test Failed. Expected: fail, but got: Fail
+2025-06-07 11:06:44 AM: INFO: **** Login DDT test failed ******
+2025-06-07 11:10:25 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-07 11:10:25 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-07 11:10:35 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:10:35 AM: INFO: Row 2: Login Passed as expected.
+2025-06-07 11:10:43 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:10:53 AM: INFO: Row 3: Login Failed as expected.
+2025-06-07 11:10:59 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:11:09 AM: INFO: Row 4: Login Failed as expected.
+2025-06-07 11:11:16 AM: INFO: ********* Logged in Successfully *******
+2025-06-07 11:11:26 AM: INFO: Row 5: Login Failed as expected.
+2025-06-07 11:11:26 AM: INFO: ***** Login DDT test passed *****
+2025-06-07 11:11:26 AM: INFO: ***** End of Login DDT Test *******
+2025-06-07 11:11:26 AM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-07 11:12:14 AM: INFO: ********** Starting Add Employee **********
+2025-06-07 11:12:17 AM: INFO: ********** Started Login **********
+2025-06-07 11:12:19 AM: INFO: ********** Completed Login **********
+2025-06-07 11:12:21 AM: INFO: ********** Redirect to PIM **********
+2025-06-07 11:12:34 AM: INFO: ********** Employee Added Successfully **********
+2025-06-07 11:12:36 AM: INFO: ********** Starting test_homepage_title **********
+2025-06-07 11:12:39 AM: INFO: Homepage title matched.
+2025-06-07 11:20:45 AM: INFO: ********** Starting Add Employee **********
+2025-06-07 11:20:49 AM: INFO: ********** Started Login **********
+2025-06-07 11:20:51 AM: INFO: ********** Completed Login **********
+2025-06-07 11:20:54 AM: INFO: ********** Redirect to PIM **********
+2025-06-07 11:21:07 AM: INFO: ********** Employee Added Successfully **********
+2025-06-07 11:21:08 AM: INFO: ********** Starting test_homepage_title **********
+2025-06-07 11:21:12 AM: INFO: Homepage title matched.
+2025-06-09 02:51:42 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 02:51:43 PM: INFO: ********** Started Login **********
+2025-06-09 02:51:46 PM: INFO: ********** Completed Login **********
+2025-06-09 02:51:49 PM: INFO: ********** Redirect to PIM **********
+2025-06-09 02:52:01 PM: INFO: ********** Employee Added Successfully **********
+2025-06-09 02:52:03 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-09 02:52:06 PM: INFO: Homepage title matched.
+2025-06-09 02:52:08 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-09 02:52:08 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-09 02:52:23 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 02:52:23 PM: INFO: Row 2: Login Passed as expected.
+2025-06-09 02:52:32 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 02:52:43 PM: INFO: Row 3: Login Failed as expected.
+2025-06-09 02:52:48 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 02:52:58 PM: INFO: Row 4: Login Failed as expected.
+2025-06-09 02:53:05 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 02:53:15 PM: INFO: Row 5: Login Failed as expected.
+2025-06-09 02:53:15 PM: INFO: ***** Login DDT test passed *****
+2025-06-09 02:53:15 PM: INFO: ***** End of Login DDT Test *******
+2025-06-09 02:53:15 PM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-09 02:53:17 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 02:53:20 PM: INFO: ********** Started Login **********
+2025-06-09 02:53:20 PM: INFO: ********** Completed Login **********
+2025-06-09 02:53:46 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ec98fea5+79173]
+	GetHandleVerifier [0x0x7ff6ec98ff00+79264]
+	(No symbol) [0x0x7ff6ec749e5a]
+	(No symbol) [0x0x7ff6ec7a0586]
+	(No symbol) [0x0x7ff6ec7a083c]
+	(No symbol) [0x0x7ff6ec7f4247]
+	(No symbol) [0x0x7ff6ec7c89af]
+	(No symbol) [0x0x7ff6ec7f100d]
+	(No symbol) [0x0x7ff6ec7c8743]
+	(No symbol) [0x0x7ff6ec7914c1]
+	(No symbol) [0x0x7ff6ec792253]
+	GetHandleVerifier [0x0x7ff6ecc5a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6ecc5472d+2981325]
+	GetHandleVerifier [0x0x7ff6ecc73380+3107360]
+	GetHandleVerifier [0x0x7ff6ec9aaa2e+188622]
+	GetHandleVerifier [0x0x7ff6ec9b22bf+219487]
+	GetHandleVerifier [0x0x7ff6ec998df4+115860]
+	GetHandleVerifier [0x0x7ff6ec998fa9+116297]
+	GetHandleVerifier [0x0x7ff6ec97f558+11256]
+	BaseThreadInitThunk [0x0x7ffbe35ae8d7+23]
+	RtlUserThreadStart [0x0x7ffbe4d5c34c+44]
+
+2025-06-09 03:03:54 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 03:03:57 PM: INFO: ********** Started Login **********
+2025-06-09 03:03:58 PM: INFO: ********** Completed Login **********
+2025-06-09 03:04:22 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 03:04:24 PM: INFO: ********** Started Login **********
+2025-06-09 03:04:25 PM: INFO: ********** Completed Login **********
+2025-06-09 03:04:49 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ec98fea5+79173]
+	GetHandleVerifier [0x0x7ff6ec98ff00+79264]
+	(No symbol) [0x0x7ff6ec749e5a]
+	(No symbol) [0x0x7ff6ec7a0586]
+	(No symbol) [0x0x7ff6ec7a083c]
+	(No symbol) [0x0x7ff6ec7f4247]
+	(No symbol) [0x0x7ff6ec7c89af]
+	(No symbol) [0x0x7ff6ec7f100d]
+	(No symbol) [0x0x7ff6ec7c8743]
+	(No symbol) [0x0x7ff6ec7914c1]
+	(No symbol) [0x0x7ff6ec792253]
+	GetHandleVerifier [0x0x7ff6ecc5a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6ecc5472d+2981325]
+	GetHandleVerifier [0x0x7ff6ecc73380+3107360]
+	GetHandleVerifier [0x0x7ff6ec9aaa2e+188622]
+	GetHandleVerifier [0x0x7ff6ec9b22bf+219487]
+	GetHandleVerifier [0x0x7ff6ec998df4+115860]
+	GetHandleVerifier [0x0x7ff6ec998fa9+116297]
+	GetHandleVerifier [0x0x7ff6ec97f558+11256]
+	BaseThreadInitThunk [0x0x7ffbe35ae8d7+23]
+	RtlUserThreadStart [0x0x7ffbe4d5c34c+44]
+
+2025-06-09 03:06:17 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 03:06:20 PM: INFO: ********** Started Login **********
+2025-06-09 03:06:21 PM: INFO: ********** Completed Login **********
+2025-06-09 03:06:44 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ec98fea5+79173]
+	GetHandleVerifier [0x0x7ff6ec98ff00+79264]
+	(No symbol) [0x0x7ff6ec749e5a]
+	(No symbol) [0x0x7ff6ec7a0586]
+	(No symbol) [0x0x7ff6ec7a083c]
+	(No symbol) [0x0x7ff6ec7f4247]
+	(No symbol) [0x0x7ff6ec7c89af]
+	(No symbol) [0x0x7ff6ec7f100d]
+	(No symbol) [0x0x7ff6ec7c8743]
+	(No symbol) [0x0x7ff6ec7914c1]
+	(No symbol) [0x0x7ff6ec792253]
+	GetHandleVerifier [0x0x7ff6ecc5a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6ecc5472d+2981325]
+	GetHandleVerifier [0x0x7ff6ecc73380+3107360]
+	GetHandleVerifier [0x0x7ff6ec9aaa2e+188622]
+	GetHandleVerifier [0x0x7ff6ec9b22bf+219487]
+	GetHandleVerifier [0x0x7ff6ec998df4+115860]
+	GetHandleVerifier [0x0x7ff6ec998fa9+116297]
+	GetHandleVerifier [0x0x7ff6ec97f558+11256]
+	BaseThreadInitThunk [0x0x7ffbe35ae8d7+23]
+	RtlUserThreadStart [0x0x7ffbe4d5c34c+44]
+
+2025-06-09 03:07:05 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 03:07:08 PM: INFO: ********** Started Login **********
+2025-06-09 03:07:08 PM: INFO: ********** Completed Login **********
+2025-06-09 03:31:26 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 03:31:29 PM: INFO: ********** Started Login **********
+2025-06-09 03:31:30 PM: INFO: ********** Completed Login **********
+2025-06-09 03:31:33 PM: INFO: ********** Redirect to PIM **********
+2025-06-09 03:31:45 PM: INFO: ********** Employee Added Successfully **********
+2025-06-09 03:31:46 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-09 03:31:49 PM: INFO: Homepage title matched.
+2025-06-09 03:31:50 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-09 03:31:50 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-09 03:32:03 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 03:32:03 PM: INFO: Row 2: Login Passed as expected.
+2025-06-09 03:32:10 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 03:32:20 PM: INFO: Row 3: Login Failed as expected.
+2025-06-09 03:32:25 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 03:32:36 PM: INFO: Row 4: Login Failed as expected.
+2025-06-09 03:32:41 PM: INFO: ********* Logged in Successfully *******
+2025-06-09 03:32:51 PM: INFO: Row 5: Login Failed as expected.
+2025-06-09 03:32:51 PM: INFO: ***** Login DDT test passed *****
+2025-06-09 03:32:51 PM: INFO: ***** End of Login DDT Test *******
+2025-06-09 03:32:51 PM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-09 03:32:53 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 03:32:56 PM: INFO: ********** Started Login **********
+2025-06-09 03:32:56 PM: INFO: ********** Completed Login **********
+2025-06-09 04:20:14 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 04:20:17 PM: INFO: ********** Started Login **********
+2025-06-09 04:20:19 PM: INFO: ********** Completed Login **********
+2025-06-09 04:20:32 PM: ERROR: Test Search Employee failed: assert 'Anvit A123' == 'Charles Carter'
+  
+  - Charles Carter
+  + Anvit A123
+2025-06-09 04:22:00 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:22:03 PM: INFO: ********** Started Login **********
+2025-06-09 04:22:52 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:22:55 PM: INFO: ********** Started Login **********
+2025-06-09 04:22:56 PM: INFO: ********** Completed Login **********
+2025-06-09 04:23:05 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-09 04:23:09 PM: ERROR: Test Search Employee failed: assert 'Anwesha' == 'Charles Carter'
+  
+  - Charles Carter
+  + Anwesha
+2025-06-09 04:26:24 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:26:27 PM: INFO: ********** Started Login **********
+2025-06-09 04:26:28 PM: INFO: ********** Completed Login **********
+2025-06-09 04:26:37 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-09 04:26:40 PM: ERROR: Test Search Employee failed: assert 'Anwesha elna' == 'Charles Carter'
+  
+  - Charles Carter
+  + Anwesha elna
+2025-06-09 04:30:08 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:30:12 PM: INFO: ********** Started Login **********
+2025-06-09 04:30:13 PM: INFO: ********** Completed Login **********
+2025-06-09 04:30:27 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-09 04:30:59 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:31:01 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:31:03 PM: INFO: ********** Started Login **********
+2025-06-09 04:31:04 PM: INFO: ********** Completed Login **********
+2025-06-09 04:31:05 PM: INFO: ********** Started Login **********
+2025-06-09 04:31:08 PM: INFO: ********** Completed Login **********
+2025-06-09 04:31:18 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-09 04:31:20 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-09 04:31:21 PM: ERROR: Test Search Employee failed: assert 'bala kumar ravi' == 'Charles Carter'
+  
+  - Charles Carter
+  + bala kumar ravi
+2025-06-09 04:31:23 PM: ERROR: Test Search Employee failed: assert 'bala kumar ravi' == 'Charles Carter'
+  
+  - Charles Carter
+  + bala kumar ravi
+2025-06-09 04:32:28 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-09 04:32:31 PM: INFO: ********** Started Login **********
+2025-06-09 04:32:32 PM: INFO: ********** Completed Login **********
+2025-06-09 04:32:42 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-09 04:35:55 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 04:35:58 PM: INFO: ********** Started Login **********
+2025-06-09 04:35:59 PM: INFO: ********** Completed Login **********
+2025-06-09 04:36:11 PM: ERROR: Test Search Employee failed: assert '05665287' == '0561'
+  
+  - 0561
+  + 05665287
+2025-06-09 04:36:49 PM: INFO: ********** Starting Add Employee **********
+2025-06-09 04:36:52 PM: INFO: ********** Started Login **********
+2025-06-09 04:36:53 PM: INFO: ********** Completed Login **********
+2025-06-10 05:29:35 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 05:29:38 PM: INFO: ********** Started Login **********
+2025-06-10 05:29:39 PM: INFO: ********** Completed Login **********
+2025-06-10 05:29:48 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-10 05:37:28 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 05:37:31 PM: INFO: ********** Started Login **********
+2025-06-10 05:37:34 PM: INFO: ********** Completed Login **********
+2025-06-10 05:37:56 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff664cdfea5+79173]
+	GetHandleVerifier [0x0x7ff664cdff00+79264]
+	(No symbol) [0x0x7ff664a99e5a]
+	(No symbol) [0x0x7ff664af0586]
+	(No symbol) [0x0x7ff664af083c]
+	(No symbol) [0x0x7ff664b44247]
+	(No symbol) [0x0x7ff664b189af]
+	(No symbol) [0x0x7ff664b4100d]
+	(No symbol) [0x0x7ff664b18743]
+	(No symbol) [0x0x7ff664ae14c1]
+	(No symbol) [0x0x7ff664ae2253]
+	GetHandleVerifier [0x0x7ff664faa2dd+3004797]
+	GetHandleVerifier [0x0x7ff664fa472d+2981325]
+	GetHandleVerifier [0x0x7ff664fc3380+3107360]
+	GetHandleVerifier [0x0x7ff664cfaa2e+188622]
+	GetHandleVerifier [0x0x7ff664d022bf+219487]
+	GetHandleVerifier [0x0x7ff664ce8df4+115860]
+	GetHandleVerifier [0x0x7ff664ce8fa9+116297]
+	GetHandleVerifier [0x0x7ff664ccf558+11256]
+	BaseThreadInitThunk [0x0x7ffbcd5de8d7+23]
+	RtlUserThreadStart [0x0x7ffbcec9c34c+44]
+
+2025-06-10 09:28:52 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:28:56 PM: INFO: ********** Started Login **********
+2025-06-10 09:28:57 PM: INFO: ********** Completed Login **********
+2025-06-10 09:29:06 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-10 09:31:51 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:31:54 PM: INFO: ********** Started Login **********
+2025-06-10 09:31:55 PM: INFO: ********** Completed Login **********
+2025-06-10 09:32:18 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
+2025-06-10 09:34:23 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:34:27 PM: INFO: ********** Started Login **********
+2025-06-10 09:34:27 PM: INFO: ********** Completed Login **********
+2025-06-10 09:34:37 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-10 09:34:49 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:34:52 PM: INFO: ********** Started Login **********
+2025-06-10 09:34:53 PM: INFO: ********** Completed Login **********
+2025-06-10 09:35:16 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
+2025-06-10 09:38:25 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:38:28 PM: INFO: ********** Started Login **********
+2025-06-10 09:38:29 PM: INFO: ********** Completed Login **********
+2025-06-10 09:38:52 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
+2025-06-10 09:39:31 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:39:32 PM: INFO: ********** Started Login **********
+2025-06-10 09:39:36 PM: INFO: ********** Completed Login **********
+2025-06-10 09:40:00 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
+2025-06-10 09:41:38 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:41:42 PM: INFO: ********** Started Login **********
+2025-06-10 09:41:43 PM: INFO: ********** Completed Login **********
+2025-06-10 09:41:52 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-10 09:42:43 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:42:46 PM: INFO: ********** Started Login **********
+2025-06-10 09:42:47 PM: INFO: ********** Completed Login **********
+2025-06-10 09:42:56 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-10 09:43:28 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:43:31 PM: INFO: ********** Started Login **********
+2025-06-10 09:43:32 PM: INFO: ********** Completed Login **********
+2025-06-10 09:43:54 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
+2025-06-10 09:49:06 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:49:09 PM: INFO: ********** Started Login **********
+2025-06-10 09:49:10 PM: INFO: ********** Completed Login **********
+2025-06-10 09:49:19 PM: INFO: ********** Completed Search Employee By Name **********
+2025-06-10 09:49:30 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:49:33 PM: INFO: ********** Started Login **********
+2025-06-10 09:49:34 PM: INFO: ********** Completed Login **********
+2025-06-10 09:49:57 PM: ERROR: Test Search Employee failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
+2025-06-10 09:55:40 PM: INFO: ********** Starting Search Employee By Name **********
+2025-06-10 09:55:44 PM: INFO: ********** Started Login **********
+2025-06-10 09:55:44 PM: INFO: ********** Completed Login **********
+2025-06-10 09:56:04 PM: ERROR: Timeout while searching for employee: Charles Carter1
+2025-06-10 10:02:16 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-10 10:02:19 PM: INFO: Homepage title matched.
+2025-06-10 10:02:23 PM: INFO: ********** Starting Login test **********
+2025-06-10 10:02:28 PM: INFO: Login successful. Element detected
+2025-06-10 10:07:00 PM: INFO: ********** Starting test_homepage_title **********
+2025-06-10 10:07:03 PM: INFO: Homepage title matched.
+2025-06-10 10:07:06 PM: INFO: ********** Starting Login test **********
+2025-06-10 10:07:24 PM: ERROR: Login test failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60265fea5+79173]
+	GetHandleVerifier [0x0x7ff60265ff00+79264]
+	(No symbol) [0x0x7ff602419e5a]
+	(No symbol) [0x0x7ff602470586]
+	(No symbol) [0x0x7ff60247083c]
+	(No symbol) [0x0x7ff6024c4247]
+	(No symbol) [0x0x7ff6024989af]
+	(No symbol) [0x0x7ff6024c100d]
+	(No symbol) [0x0x7ff602498743]
+	(No symbol) [0x0x7ff6024614c1]
+	(No symbol) [0x0x7ff602462253]
+	GetHandleVerifier [0x0x7ff60292a2dd+3004797]
+	GetHandleVerifier [0x0x7ff60292472d+2981325]
+	GetHandleVerifier [0x0x7ff602943380+3107360]
+	GetHandleVerifier [0x0x7ff60267aa2e+188622]
+	GetHandleVerifier [0x0x7ff6026822bf+219487]
+	GetHandleVerifier [0x0x7ff602668df4+115860]
+	GetHandleVerifier [0x0x7ff602668fa9+116297]
+	GetHandleVerifier [0x0x7ff60264f558+11256]
+	BaseThreadInitThunk [0x0x7ffe07bbe8d7+23]
+	RtlUserThreadStart [0x0x7ffe09e1c34c+44]
+
